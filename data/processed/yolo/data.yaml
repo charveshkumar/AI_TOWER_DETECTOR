@@ -1,0 +1,8 @@
+path: A:\Electrohack\data\processed\yolo
+train: train/images
+val: val/images
+test: test/images
+nc: 2
+names:
+- supporting_tower
+- monopole_tower

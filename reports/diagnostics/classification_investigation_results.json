@@ -1,0 +1,971 @@
+{
+  "checkpoints": {
+    "baseline": "A:\\Electrohack\\runs\\detect\\yolo11m_baseline\\weights\\best.pt",
+    "augmented": "A:\\Electrohack\\runs\\detect\\yolo11m_augmented\\weights\\best.pt"
+  },
+  "target_images_analysis": [
+    {
+      "image": "img_6aae5e19d772407e_JPG.rf.d1684b185d60c6d8ad9afae5e44dc0f9.jpg",
+      "ground_truth_ids": [
+        0
+      ],
+      "ground_truth_names": [
+        "supporting_tower"
+      ],
+      "baseline": {
+        "conf_0.10": [
+          {
+            "class_id": 0,
+            "class_name": "supporting_tower",
+            "conf": 0.1614,
+            "bbox": [
+              6.3,
+              274.4,
+              219.9,
+              511.0
+            ]
+          }
+        ],
+        "conf_0.20": [],
+        "conf_0.35": []
+      },
+      "augmented": {
+        "conf_0.10": [
+          {
+            "class_id": 0,
+            "class_name": "supporting_tower",
+            "conf": 0.3357,
+            "bbox": [
+              73.0,
+              79.7,
+              327.7,
+              503.8
+            ]
+          },
+          {
+            "class_id": 0,
+            "class_name": "supporting_tower",
+            "conf": 0.2513,
+            "bbox": [
+              24.2,
+              87.9,
+              282.2,
+              512.0
+            ]
+          },
+          {
+            "class_id": 0,
+            "class_name": "supporting_tower",
+            "conf": 0.1387,
+            "bbox": [
+              0.0,
+              100.7,
+              129.6,
+              507.2
+            ]
+          },
+          {
+            "class_id": 0,
+            "class_name": "supporting_tower",
+            "conf": 0.11,
+            "bbox": [
+              0.0,
+              91.4,
+              85.3,
+              497.1
+            ]
+          }
+        ],
+        "conf_0.20": [
+          {
+            "class_id": 0,
+            "class_name": "supporting_tower",
+            "conf": 0.3357,
+            "bbox": [
+              73.0,
+              79.7,
+              327.7,
+              503.8
+            ]
+          },
+          {
+            "class_id": 0,
+            "class_name": "supporting_tower",
+            "conf": 0.2513,
+            "bbox": [
+              24.2,
+              87.9,
+              282.2,
+              512.0
+            ]
+          }
+        ],
+        "conf_0.35": []
+      }
+    },
+    {
+      "image": "img_00351f186c1f4a42_jpg.rf.befbfc7f19527cb6587311bddb2a0227.jpg",
+      "ground_truth_ids": [
+        0
+      ],
+      "ground_truth_names": [
+        "supporting_tower"
+      ],
+      "baseline": {
+        "conf_0.10": [
+          {
+            "class_id": 1,
+            "class_name": "monopole_tower",
+            "conf": 0.3184,
+            "bbox": [
+              237.1,
+              86.2,
+              417.4,
+              511.5
+            ]
+          },
+          {
+            "class_id": 1,
+            "class_name": "monopole_tower",
+            "conf": 0.2509,
+            "bbox": [
+              144.7,
+              96.5,
+              395.7,
+              512.0
+            ]
+          },
+          {
+            "class_id": 1,
+            "class_name": "monopole_tower",
+            "conf": 0.2003,
+            "bbox": [
+              98.8,
+              100.0,
+              347.8,
+              507.0
+            ]
+          },
+          {
+            "class_id": 1,
+            "class_name": "monopole_tower",
+            "conf": 0.1592,
+            "bbox": [
+              194.5,
+              72.6,
+              442.3,
+              500.9
+            ]
+          }
+        ],
+        "conf_0.20": [
+          {
+            "class_id": 1,
+            "class_name": "monopole_tower",
+            "conf": 0.3184,
+            "bbox": [
+              237.1,
+              86.2,
+              417.4,
+              511.5
+            ]
+          },
+          {
+            "class_id": 1,
+            "class_name": "monopole_tower",
+            "conf": 0.2509,
+            "bbox": [
+              144.7,
+              96.5,
+              395.7,
+              512.0
+            ]
+          },
+          {
+            "class_id": 1,
+            "class_name": "monopole_tower",
+            "conf": 0.2003,
+            "bbox": [
+              98.8,
+              100.0,
+              347.8,
+              507.0
+            ]
+          }
+        ],
+        "conf_0.35": []
+      },
+      "augmented": {
+        "conf_0.10": [],
+        "conf_0.20": [],
+        "conf_0.35": []
+      }
+    },
+    {
+      "image": "img_0d0ed694e9b8486e_JPG.rf.e5feee19715c04431440a8d80bdfac56.jpg",
+      "ground_truth_ids": [
+        0
+      ],
+      "ground_truth_names": [
+        "supporting_tower"
+      ],
+      "baseline": {
+        "conf_0.10": [
+          {
+            "class_id": 0,
+            "class_name": "supporting_tower",
+            "conf": 0.3692,
+            "bbox": [
+              197.7,
+              0.0,
+              343.6,
+              474.3
+            ]
+          },
+          {
+            "class_id": 0,
+            "class_name": "supporting_tower",
+            "conf": 0.3482,
+            "bbox": [
+              193.8,
+              61.9,
+              357.0,
+              512.0
+            ]
+          },
+          {
+            "class_id": 0,
+            "class_name": "supporting_tower",
+            "conf": 0.231,
+            "bbox": [
+              195.1,
+              169.5,
+              339.5,
+              512.0
+            ]
+          }
+        ],
+        "conf_0.20": [
+          {
+            "class_id": 0,
+            "class_name": "supporting_tower",
+            "conf": 0.3692,
+            "bbox": [
+              197.7,
+              0.0,
+              343.6,
+              474.3
+            ]
+          },
+          {
+            "class_id": 0,
+            "class_name": "supporting_tower",
+            "conf": 0.3482,
+            "bbox": [
+              193.8,
+              61.9,
+              357.0,
+              512.0
+            ]
+          },
+          {
+            "class_id": 0,
+            "class_name": "supporting_tower",
+            "conf": 0.231,
+            "bbox": [
+              195.1,
+              169.5,
+              339.5,
+              512.0
+            ]
+          }
+        ],
+        "conf_0.35": [
+          {
+            "class_id": 0,
+            "class_name": "supporting_tower",
+            "conf": 0.3692,
+            "bbox": [
+              197.7,
+              0.0,
+              343.6,
+              474.3
+            ]
+          }
+        ]
+      },
+      "augmented": {
+        "conf_0.10": [
+          {
+            "class_id": 0,
+            "class_name": "supporting_tower",
+            "conf": 0.4177,
+            "bbox": [
+              162.0,
+              73.6,
+              401.5,
+              501.1
+            ]
+          },
+          {
+            "class_id": 0,
+            "class_name": "supporting_tower",
+            "conf": 0.2613,
+            "bbox": [
+              191.4,
+              85.2,
+              350.5,
+              492.3
+            ]
+          }
+        ],
+        "conf_0.20": [
+          {
+            "class_id": 0,
+            "class_name": "supporting_tower",
+            "conf": 0.4177,
+            "bbox": [
+              162.0,
+              73.6,
+              401.5,
+              501.1
+            ]
+          },
+          {
+            "class_id": 0,
+            "class_name": "supporting_tower",
+            "conf": 0.2613,
+            "bbox": [
+              191.4,
+              85.2,
+              350.5,
+              492.3
+            ]
+          }
+        ],
+        "conf_0.35": [
+          {
+            "class_id": 0,
+            "class_name": "supporting_tower",
+            "conf": 0.4177,
+            "bbox": [
+              162.0,
+              73.6,
+              401.5,
+              501.1
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "image": "img_14321e8f0c474503_jpg.rf.954f1a97e0de876a9bf8b5da99dc5511.jpg",
+      "ground_truth_ids": [
+        1
+      ],
+      "ground_truth_names": [
+        "monopole_tower"
+      ],
+      "baseline": {
+        "conf_0.10": [
+          {
+            "class_id": 1,
+            "class_name": "monopole_tower",
+            "conf": 0.4653,
+            "bbox": [
+              96.0,
+              68.1,
+              230.1,
+              512.0
+            ]
+          },
+          {
+            "class_id": 1,
+            "class_name": "monopole_tower",
+            "conf": 0.1908,
+            "bbox": [
+              74.2,
+              52.0,
+              242.9,
+              423.8
+            ]
+          },
+          {
+            "class_id": 1,
+            "class_name": "monopole_tower",
+            "conf": 0.101,
+            "bbox": [
+              67.3,
+              80.4,
+              263.9,
+              495.2
+            ]
+          }
+        ],
+        "conf_0.20": [
+          {
+            "class_id": 1,
+            "class_name": "monopole_tower",
+            "conf": 0.4653,
+            "bbox": [
+              96.0,
+              68.1,
+              230.1,
+              512.0
+            ]
+          }
+        ],
+        "conf_0.35": [
+          {
+            "class_id": 1,
+            "class_name": "monopole_tower",
+            "conf": 0.4653,
+            "bbox": [
+              96.0,
+              68.1,
+              230.1,
+              512.0
+            ]
+          }
+        ]
+      },
+      "augmented": {
+        "conf_0.10": [
+          {
+            "class_id": 1,
+            "class_name": "monopole_tower",
+            "conf": 0.2537,
+            "bbox": [
+              97.3,
+              134.5,
+              255.5,
+              495.8
+            ]
+          },
+          {
+            "class_id": 1,
+            "class_name": "monopole_tower",
+            "conf": 0.2259,
+            "bbox": [
+              97.2,
+              47.5,
+              253.1,
+              403.6
+            ]
+          },
+          {
+            "class_id": 1,
+            "class_name": "monopole_tower",
+            "conf": 0.1219,
+            "bbox": [
+              107.1,
+              65.1,
+              221.6,
+              362.4
+            ]
+          }
+        ],
+        "conf_0.20": [
+          {
+            "class_id": 1,
+            "class_name": "monopole_tower",
+            "conf": 0.2537,
+            "bbox": [
+              97.3,
+              134.5,
+              255.5,
+              495.8
+            ]
+          },
+          {
+            "class_id": 1,
+            "class_name": "monopole_tower",
+            "conf": 0.2259,
+            "bbox": [
+              97.2,
+              47.5,
+              253.1,
+              403.6
+            ]
+          }
+        ],
+        "conf_0.35": []
+      }
+    }
+  ],
+  "validation_split_analysis": [
+    {
+      "image": "img_0c0e1d5bd5244b57_JPG.rf.e79e3bc39fd4feb5c3918124abbddc9a.jpg",
+      "ground_truth_ids": [
+        0
+      ],
+      "ground_truth_names": [
+        "supporting_tower"
+      ],
+      "baseline_preds_conf020": [
+        {
+          "class_id": 0,
+          "class_name": "supporting_tower",
+          "conf": 0.4031
+        },
+        {
+          "class_id": 0,
+          "class_name": "supporting_tower",
+          "conf": 0.2053
+        }
+      ],
+      "augmented_preds_conf020": [
+        {
+          "class_id": 0,
+          "class_name": "supporting_tower",
+          "conf": 0.3703
+        },
+        {
+          "class_id": 0,
+          "class_name": "supporting_tower",
+          "conf": 0.259
+        }
+      ]
+    },
+    {
+      "image": "img_0fe5d55fc0564f42_jpg.rf.f35c3c3765991b7b719cf25e28b773d6.jpg",
+      "ground_truth_ids": [
+        1
+      ],
+      "ground_truth_names": [
+        "monopole_tower"
+      ],
+      "baseline_preds_conf020": [
+        {
+          "class_id": 1,
+          "class_name": "monopole_tower",
+          "conf": 0.2508
+        }
+      ],
+      "augmented_preds_conf020": []
+    },
+    {
+      "image": "img_379c3aa45a2e4755_jpg.rf.3b79b3927b2d5ba305adae85f172f633.jpg",
+      "ground_truth_ids": [
+        1
+      ],
+      "ground_truth_names": [
+        "monopole_tower"
+      ],
+      "baseline_preds_conf020": [
+        {
+          "class_id": 1,
+          "class_name": "monopole_tower",
+          "conf": 0.2825
+        }
+      ],
+      "augmented_preds_conf020": []
+    },
+    {
+      "image": "img_3af8add972ce4f12_jpg.rf.7946bb1fae0b34406088009521bc81e9.jpg",
+      "ground_truth_ids": [
+        1
+      ],
+      "ground_truth_names": [
+        "monopole_tower"
+      ],
+      "baseline_preds_conf020": [
+        {
+          "class_id": 1,
+          "class_name": "monopole_tower",
+          "conf": 0.4432
+        },
+        {
+          "class_id": 1,
+          "class_name": "monopole_tower",
+          "conf": 0.419
+        },
+        {
+          "class_id": 1,
+          "class_name": "monopole_tower",
+          "conf": 0.2313
+        }
+      ],
+      "augmented_preds_conf020": []
+    },
+    {
+      "image": "img_51ab0cd2699c449b_JPG.rf.3cc947e730bf71cda4d75b2d286c03cb.jpg",
+      "ground_truth_ids": [
+        0
+      ],
+      "ground_truth_names": [
+        "supporting_tower"
+      ],
+      "baseline_preds_conf020": [
+        {
+          "class_id": 0,
+          "class_name": "supporting_tower",
+          "conf": 0.4126
+        },
+        {
+          "class_id": 0,
+          "class_name": "supporting_tower",
+          "conf": 0.26
+        }
+      ],
+      "augmented_preds_conf020": [
+        {
+          "class_id": 0,
+          "class_name": "supporting_tower",
+          "conf": 0.2767
+        }
+      ]
+    },
+    {
+      "image": "img_53096c056cb14288_JPG.rf.b999f931fa8ef5c8eafd19e36b258b5b.jpg",
+      "ground_truth_ids": [
+        0
+      ],
+      "ground_truth_names": [
+        "supporting_tower"
+      ],
+      "baseline_preds_conf020": [
+        {
+          "class_id": 0,
+          "class_name": "supporting_tower",
+          "conf": 0.3923
+        },
+        {
+          "class_id": 0,
+          "class_name": "supporting_tower",
+          "conf": 0.2495
+        },
+        {
+          "class_id": 0,
+          "class_name": "supporting_tower",
+          "conf": 0.215
+        }
+      ],
+      "augmented_preds_conf020": [
+        {
+          "class_id": 0,
+          "class_name": "supporting_tower",
+          "conf": 0.329
+        }
+      ]
+    },
+    {
+      "image": "img_7f301fb5fe5e48ff_JPG.rf.9d4b09ca56c88e9effe328feb800b022.jpg",
+      "ground_truth_ids": [
+        0
+      ],
+      "ground_truth_names": [
+        "supporting_tower"
+      ],
+      "baseline_preds_conf020": [
+        {
+          "class_id": 0,
+          "class_name": "supporting_tower",
+          "conf": 0.4067
+        }
+      ],
+      "augmented_preds_conf020": [
+        {
+          "class_id": 0,
+          "class_name": "supporting_tower",
+          "conf": 0.2828
+        }
+      ]
+    },
+    {
+      "image": "img_80b8568b2be54072_JPG.rf.bf813075d00314bf2bd6d610f68c838f.jpg",
+      "ground_truth_ids": [
+        0
+      ],
+      "ground_truth_names": [
+        "supporting_tower"
+      ],
+      "baseline_preds_conf020": [
+        {
+          "class_id": 0,
+          "class_name": "supporting_tower",
+          "conf": 0.3269
+        },
+        {
+          "class_id": 0,
+          "class_name": "supporting_tower",
+          "conf": 0.2298
+        }
+      ],
+      "augmented_preds_conf020": [
+        {
+          "class_id": 0,
+          "class_name": "supporting_tower",
+          "conf": 0.476
+        },
+        {
+          "class_id": 0,
+          "class_name": "supporting_tower",
+          "conf": 0.2497
+        }
+      ]
+    },
+    {
+      "image": "img_838ea92de2164ded_jpg.rf.d91a30c0ddec6fd8404e91ab81a8a6ca.jpg",
+      "ground_truth_ids": [
+        1
+      ],
+      "ground_truth_names": [
+        "monopole_tower"
+      ],
+      "baseline_preds_conf020": [
+        {
+          "class_id": 1,
+          "class_name": "monopole_tower",
+          "conf": 0.5039
+        }
+      ],
+      "augmented_preds_conf020": []
+    },
+    {
+      "image": "img_8de203dea6e347ba_jpg.rf.cbc1b6a5ea4aaaf92b23de05aecce4f2.jpg",
+      "ground_truth_ids": [
+        1
+      ],
+      "ground_truth_names": [
+        "monopole_tower"
+      ],
+      "baseline_preds_conf020": [
+        {
+          "class_id": 1,
+          "class_name": "monopole_tower",
+          "conf": 0.249
+        }
+      ],
+      "augmented_preds_conf020": []
+    },
+    {
+      "image": "img_a1361ad459874160_JPG.rf.05c9a385c174f054e1704f2d88ecc845.jpg",
+      "ground_truth_ids": [
+        0
+      ],
+      "ground_truth_names": [
+        "supporting_tower"
+      ],
+      "baseline_preds_conf020": [
+        {
+          "class_id": 0,
+          "class_name": "supporting_tower",
+          "conf": 0.3595
+        }
+      ],
+      "augmented_preds_conf020": [
+        {
+          "class_id": 0,
+          "class_name": "supporting_tower",
+          "conf": 0.4098
+        },
+        {
+          "class_id": 0,
+          "class_name": "supporting_tower",
+          "conf": 0.2492
+        }
+      ]
+    },
+    {
+      "image": "img_a926c05ec70d42a0_jpg.rf.7509824f437f727c251fded07b3a9115.jpg",
+      "ground_truth_ids": [
+        1
+      ],
+      "ground_truth_names": [
+        "monopole_tower"
+      ],
+      "baseline_preds_conf020": [
+        {
+          "class_id": 1,
+          "class_name": "monopole_tower",
+          "conf": 0.4244
+        },
+        {
+          "class_id": 1,
+          "class_name": "monopole_tower",
+          "conf": 0.2195
+        }
+      ],
+      "augmented_preds_conf020": [
+        {
+          "class_id": 0,
+          "class_name": "supporting_tower",
+          "conf": 0.2113
+        }
+      ]
+    },
+    {
+      "image": "img_abff1cb91657419e_png.rf.0c6baafc4cd36d11f6f021d9c938c950.jpg",
+      "ground_truth_ids": [
+        1
+      ],
+      "ground_truth_names": [
+        "monopole_tower"
+      ],
+      "baseline_preds_conf020": [
+        {
+          "class_id": 0,
+          "class_name": "supporting_tower",
+          "conf": 0.2266
+        }
+      ],
+      "augmented_preds_conf020": [
+        {
+          "class_id": 0,
+          "class_name": "supporting_tower",
+          "conf": 0.3446
+        },
+        {
+          "class_id": 0,
+          "class_name": "supporting_tower",
+          "conf": 0.2352
+        }
+      ]
+    },
+    {
+      "image": "img_ccd8150e84194e51_JPG.rf.13fe8652284670564cadd914e9971474.jpg",
+      "ground_truth_ids": [
+        0
+      ],
+      "ground_truth_names": [
+        "supporting_tower"
+      ],
+      "baseline_preds_conf020": [
+        {
+          "class_id": 0,
+          "class_name": "supporting_tower",
+          "conf": 0.3591
+        },
+        {
+          "class_id": 0,
+          "class_name": "supporting_tower",
+          "conf": 0.297
+        }
+      ],
+      "augmented_preds_conf020": [
+        {
+          "class_id": 0,
+          "class_name": "supporting_tower",
+          "conf": 0.4332
+        },
+        {
+          "class_id": 0,
+          "class_name": "supporting_tower",
+          "conf": 0.2279
+        }
+      ]
+    },
+    {
+      "image": "img_ddf30d4590774471_JPG.rf.736d33ecabd8b0c252ee0616bcca9d9d.jpg",
+      "ground_truth_ids": [
+        0
+      ],
+      "ground_truth_names": [
+        "supporting_tower"
+      ],
+      "baseline_preds_conf020": [
+        {
+          "class_id": 0,
+          "class_name": "supporting_tower",
+          "conf": 0.4712
+        },
+        {
+          "class_id": 0,
+          "class_name": "supporting_tower",
+          "conf": 0.3442
+        }
+      ],
+      "augmented_preds_conf020": [
+        {
+          "class_id": 0,
+          "class_name": "supporting_tower",
+          "conf": 0.2833
+        }
+      ]
+    },
+    {
+      "image": "img_f530851773d444f3_jpg.rf.06eb8f71e0c7641e35cd349a5baa9fe1.jpg",
+      "ground_truth_ids": [
+        1
+      ],
+      "ground_truth_names": [
+        "monopole_tower"
+      ],
+      "baseline_preds_conf020": [
+        {
+          "class_id": 1,
+          "class_name": "monopole_tower",
+          "conf": 0.4375
+        },
+        {
+          "class_id": 1,
+          "class_name": "monopole_tower",
+          "conf": 0.3851
+        }
+      ],
+      "augmented_preds_conf020": [
+        {
+          "class_id": 0,
+          "class_name": "supporting_tower",
+          "conf": 0.2632
+        }
+      ]
+    },
+    {
+      "image": "img_f6f8dbc9f0bc4ea3_jpg.rf.441ceb21b7011489b810bcd6448a89ec.jpg",
+      "ground_truth_ids": [
+        1
+      ],
+      "ground_truth_names": [
+        "monopole_tower"
+      ],
+      "baseline_preds_conf020": [
+        {
+          "class_id": 1,
+          "class_name": "monopole_tower",
+          "conf": 0.4291
+        },
+        {
+          "class_id": 1,
+          "class_name": "monopole_tower",
+          "conf": 0.2461
+        }
+      ],
+      "augmented_preds_conf020": []
+    },
+    {
+      "image": "img_fe289846c0cf46b6_JPG.rf.852ef6d43758775a38a2eef0a8323df2.jpg",
+      "ground_truth_ids": [
+        0
+      ],
+      "ground_truth_names": [
+        "supporting_tower"
+      ],
+      "baseline_preds_conf020": [
+        {
+          "class_id": 0,
+          "class_name": "supporting_tower",
+          "conf": 0.4582
+        },
+        {
+          "class_id": 0,
+          "class_name": "supporting_tower",
+          "conf": 0.2674
+        },
+        {
+          "class_id": 0,
+          "class_name": "supporting_tower",
+          "conf": 0.2359
+        }
+      ],
+      "augmented_preds_conf020": [
+        {
+          "class_id": 0,
+          "class_name": "supporting_tower",
+          "conf": 0.3592
+        }
+      ]
+    }
+  ]
+}

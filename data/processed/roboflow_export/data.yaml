@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 2
+names: ['monopole_tower', 'supporting_tower']
+
+roboflow:
+  workspace: raghavendra-c
+  project: tower-detection-lprfy
+  version: 1
+  license: Private
+  url: https://app.roboflow.com/raghavendra-c/tower-detection-lprfy/1

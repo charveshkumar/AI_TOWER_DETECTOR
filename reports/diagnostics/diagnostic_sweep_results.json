@@ -1,0 +1,1770 @@
+{
+  "checkpoints": {
+    "baseline": "A:\\Electrohack\\runs\\detect\\yolo11m_baseline\\weights\\best.pt",
+    "augmented": "A:\\Electrohack\\runs\\detect\\yolo11m_augmented\\weights\\best.pt"
+  },
+  "threshold_sweep": [
+    0.05,
+    0.1,
+    0.25,
+    0.35,
+    0.5
+  ],
+  "results_by_image": [
+    {
+      "filename": "img_00351f186c1f4a42_jpg.rf.befbfc7f19527cb6587311bddb2a0227.jpg",
+      "path": "A:\\Electrohack\\data\\processed\\yolo\\test\\images\\img_00351f186c1f4a42_jpg.rf.befbfc7f19527cb6587311bddb2a0227.jpg",
+      "baseline_predictions": {
+        "conf_0.05": {
+          "total": 2,
+          "supporting": 0,
+          "monopole": 2,
+          "detections": [
+            {
+              "class": "monopole_tower",
+              "conf": 0.3184,
+              "bbox": [
+                237.1,
+                86.2,
+                417.4,
+                511.5
+              ]
+            },
+            {
+              "class": "monopole_tower",
+              "conf": 0.2484,
+              "bbox": [
+                118.3,
+                97.5,
+                367.1,
+                512.0
+              ]
+            }
+          ]
+        },
+        "conf_0.10": {
+          "total": 2,
+          "supporting": 0,
+          "monopole": 2,
+          "detections": [
+            {
+              "class": "monopole_tower",
+              "conf": 0.3184,
+              "bbox": [
+                237.1,
+                86.2,
+                417.4,
+                511.5
+              ]
+            },
+            {
+              "class": "monopole_tower",
+              "conf": 0.2484,
+              "bbox": [
+                118.3,
+                97.5,
+                367.1,
+                512.0
+              ]
+            }
+          ]
+        },
+        "conf_0.25": {
+          "total": 1,
+          "supporting": 0,
+          "monopole": 1,
+          "detections": [
+            {
+              "class": "monopole_tower",
+              "conf": 0.3184,
+              "bbox": [
+                237.1,
+                86.2,
+                417.4,
+                511.5
+              ]
+            }
+          ]
+        },
+        "conf_0.35": {
+          "total": 0,
+          "supporting": 0,
+          "monopole": 0,
+          "detections": []
+        },
+        "conf_0.50": {
+          "total": 0,
+          "supporting": 0,
+          "monopole": 0,
+          "detections": []
+        }
+      },
+      "augmented_predictions": {
+        "conf_0.05": {
+          "total": 4,
+          "supporting": 2,
+          "monopole": 2,
+          "detections": [
+            {
+              "class": "monopole_tower",
+              "conf": 0.096,
+              "bbox": [
+                238.0,
+                64.4,
+                467.1,
+                485.2
+              ]
+            },
+            {
+              "class": "supporting_tower",
+              "conf": 0.0944,
+              "bbox": [
+                231.9,
+                89.5,
+                492.5,
+                512.0
+              ]
+            },
+            {
+              "class": "monopole_tower",
+              "conf": 0.0783,
+              "bbox": [
+                76.3,
+                98.2,
+                260.4,
+                493.8
+              ]
+            },
+            {
+              "class": "supporting_tower",
+              "conf": 0.0672,
+              "bbox": [
+                218.2,
+                336.1,
+                377.6,
+                512.0
+              ]
+            }
+          ]
+        },
+        "conf_0.10": {
+          "total": 0,
+          "supporting": 0,
+          "monopole": 0,
+          "detections": []
+        },
+        "conf_0.25": {
+          "total": 0,
+          "supporting": 0,
+          "monopole": 0,
+          "detections": []
+        },
+        "conf_0.35": {
+          "total": 0,
+          "supporting": 0,
+          "monopole": 0,
+          "detections": []
+        },
+        "conf_0.50": {
+          "total": 0,
+          "supporting": 0,
+          "monopole": 0,
+          "detections": []
+        }
+      }
+    },
+    {
+      "filename": "img_0d0ed694e9b8486e_JPG.rf.e5feee19715c04431440a8d80bdfac56.jpg",
+      "path": "A:\\Electrohack\\data\\processed\\yolo\\test\\images\\img_0d0ed694e9b8486e_JPG.rf.e5feee19715c04431440a8d80bdfac56.jpg",
+      "baseline_predictions": {
+        "conf_0.05": {
+          "total": 2,
+          "supporting": 2,
+          "monopole": 0,
+          "detections": [
+            {
+              "class": "supporting_tower",
+              "conf": 0.3692,
+              "bbox": [
+                197.7,
+                0.0,
+                343.6,
+                474.3
+              ]
+            },
+            {
+              "class": "supporting_tower",
+              "conf": 0.1149,
+              "bbox": [
+                176.2,
+                192.3,
+                367.9,
+                512.0
+              ]
+            }
+          ]
+        },
+        "conf_0.10": {
+          "total": 2,
+          "supporting": 2,
+          "monopole": 0,
+          "detections": [
+            {
+              "class": "supporting_tower",
+              "conf": 0.3692,
+              "bbox": [
+                197.7,
+                0.0,
+                343.6,
+                474.3
+              ]
+            },
+            {
+              "class": "supporting_tower",
+              "conf": 0.1149,
+              "bbox": [
+                176.2,
+                192.3,
+                367.9,
+                512.0
+              ]
+            }
+          ]
+        },
+        "conf_0.25": {
+          "total": 1,
+          "supporting": 1,
+          "monopole": 0,
+          "detections": [
+            {
+              "class": "supporting_tower",
+              "conf": 0.3692,
+              "bbox": [
+                197.7,
+                0.0,
+                343.6,
+                474.3
+              ]
+            }
+          ]
+        },
+        "conf_0.35": {
+          "total": 1,
+          "supporting": 1,
+          "monopole": 0,
+          "detections": [
+            {
+              "class": "supporting_tower",
+              "conf": 0.3692,
+              "bbox": [
+                197.7,
+                0.0,
+                343.6,
+                474.3
+              ]
+            }
+          ]
+        },
+        "conf_0.50": {
+          "total": 0,
+          "supporting": 0,
+          "monopole": 0,
+          "detections": []
+        }
+      },
+      "augmented_predictions": {
+        "conf_0.05": {
+          "total": 2,
+          "supporting": 2,
+          "monopole": 0,
+          "detections": [
+            {
+              "class": "supporting_tower",
+              "conf": 0.4177,
+              "bbox": [
+                162.0,
+                73.6,
+                401.5,
+                501.1
+              ]
+            },
+            {
+              "class": "supporting_tower",
+              "conf": 0.0506,
+              "bbox": [
+                432.6,
+                48.4,
+                510.3,
+                413.4
+              ]
+            }
+          ]
+        },
+        "conf_0.10": {
+          "total": 1,
+          "supporting": 1,
+          "monopole": 0,
+          "detections": [
+            {
+              "class": "supporting_tower",
+              "conf": 0.4177,
+              "bbox": [
+                162.0,
+                73.6,
+                401.5,
+                501.1
+              ]
+            }
+          ]
+        },
+        "conf_0.25": {
+          "total": 1,
+          "supporting": 1,
+          "monopole": 0,
+          "detections": [
+            {
+              "class": "supporting_tower",
+              "conf": 0.4177,
+              "bbox": [
+                162.0,
+                73.6,
+                401.5,
+                501.1
+              ]
+            }
+          ]
+        },
+        "conf_0.35": {
+          "total": 1,
+          "supporting": 1,
+          "monopole": 0,
+          "detections": [
+            {
+              "class": "supporting_tower",
+              "conf": 0.4177,
+              "bbox": [
+                162.0,
+                73.6,
+                401.5,
+                501.1
+              ]
+            }
+          ]
+        },
+        "conf_0.50": {
+          "total": 0,
+          "supporting": 0,
+          "monopole": 0,
+          "detections": []
+        }
+      }
+    },
+    {
+      "filename": "img_14321e8f0c474503_jpg.rf.954f1a97e0de876a9bf8b5da99dc5511.jpg",
+      "path": "A:\\Electrohack\\data\\processed\\yolo\\test\\images\\img_14321e8f0c474503_jpg.rf.954f1a97e0de876a9bf8b5da99dc5511.jpg",
+      "baseline_predictions": {
+        "conf_0.05": {
+          "total": 1,
+          "supporting": 0,
+          "monopole": 1,
+          "detections": [
+            {
+              "class": "monopole_tower",
+              "conf": 0.4653,
+              "bbox": [
+                96.0,
+                68.1,
+                230.1,
+                512.0
+              ]
+            }
+          ]
+        },
+        "conf_0.10": {
+          "total": 1,
+          "supporting": 0,
+          "monopole": 1,
+          "detections": [
+            {
+              "class": "monopole_tower",
+              "conf": 0.4653,
+              "bbox": [
+                96.0,
+                68.1,
+                230.1,
+                512.0
+              ]
+            }
+          ]
+        },
+        "conf_0.25": {
+          "total": 1,
+          "supporting": 0,
+          "monopole": 1,
+          "detections": [
+            {
+              "class": "monopole_tower",
+              "conf": 0.4653,
+              "bbox": [
+                96.0,
+                68.1,
+                230.1,
+                512.0
+              ]
+            }
+          ]
+        },
+        "conf_0.35": {
+          "total": 1,
+          "supporting": 0,
+          "monopole": 1,
+          "detections": [
+            {
+              "class": "monopole_tower",
+              "conf": 0.4653,
+              "bbox": [
+                96.0,
+                68.1,
+                230.1,
+                512.0
+              ]
+            }
+          ]
+        },
+        "conf_0.50": {
+          "total": 0,
+          "supporting": 0,
+          "monopole": 0,
+          "detections": []
+        }
+      },
+      "augmented_predictions": {
+        "conf_0.05": {
+          "total": 2,
+          "supporting": 0,
+          "monopole": 2,
+          "detections": [
+            {
+              "class": "monopole_tower",
+              "conf": 0.2537,
+              "bbox": [
+                97.3,
+                134.5,
+                255.5,
+                495.8
+              ]
+            },
+            {
+              "class": "monopole_tower",
+              "conf": 0.1219,
+              "bbox": [
+                107.1,
+                65.1,
+                221.6,
+                362.4
+              ]
+            }
+          ]
+        },
+        "conf_0.10": {
+          "total": 2,
+          "supporting": 0,
+          "monopole": 2,
+          "detections": [
+            {
+              "class": "monopole_tower",
+              "conf": 0.2537,
+              "bbox": [
+                97.3,
+                134.5,
+                255.5,
+                495.8
+              ]
+            },
+            {
+              "class": "monopole_tower",
+              "conf": 0.1219,
+              "bbox": [
+                107.1,
+                65.1,
+                221.6,
+                362.4
+              ]
+            }
+          ]
+        },
+        "conf_0.25": {
+          "total": 1,
+          "supporting": 0,
+          "monopole": 1,
+          "detections": [
+            {
+              "class": "monopole_tower",
+              "conf": 0.2537,
+              "bbox": [
+                97.3,
+                134.5,
+                255.5,
+                495.8
+              ]
+            }
+          ]
+        },
+        "conf_0.35": {
+          "total": 0,
+          "supporting": 0,
+          "monopole": 0,
+          "detections": []
+        },
+        "conf_0.50": {
+          "total": 0,
+          "supporting": 0,
+          "monopole": 0,
+          "detections": []
+        }
+      }
+    },
+    {
+      "filename": "img_3eba6a74e9574e7b_JPG.rf.a539db8456a2c70256fc377463b20174.jpg",
+      "path": "A:\\Electrohack\\data\\processed\\yolo\\test\\images\\img_3eba6a74e9574e7b_JPG.rf.a539db8456a2c70256fc377463b20174.jpg",
+      "baseline_predictions": {
+        "conf_0.05": {
+          "total": 1,
+          "supporting": 1,
+          "monopole": 0,
+          "detections": [
+            {
+              "class": "supporting_tower",
+              "conf": 0.4253,
+              "bbox": [
+                198.4,
+                0.0,
+                346.2,
+                473.0
+              ]
+            }
+          ]
+        },
+        "conf_0.10": {
+          "total": 1,
+          "supporting": 1,
+          "monopole": 0,
+          "detections": [
+            {
+              "class": "supporting_tower",
+              "conf": 0.4253,
+              "bbox": [
+                198.4,
+                0.0,
+                346.2,
+                473.0
+              ]
+            }
+          ]
+        },
+        "conf_0.25": {
+          "total": 1,
+          "supporting": 1,
+          "monopole": 0,
+          "detections": [
+            {
+              "class": "supporting_tower",
+              "conf": 0.4253,
+              "bbox": [
+                198.4,
+                0.0,
+                346.2,
+                473.0
+              ]
+            }
+          ]
+        },
+        "conf_0.35": {
+          "total": 1,
+          "supporting": 1,
+          "monopole": 0,
+          "detections": [
+            {
+              "class": "supporting_tower",
+              "conf": 0.4253,
+              "bbox": [
+                198.4,
+                0.0,
+                346.2,
+                473.0
+              ]
+            }
+          ]
+        },
+        "conf_0.50": {
+          "total": 0,
+          "supporting": 0,
+          "monopole": 0,
+          "detections": []
+        }
+      },
+      "augmented_predictions": {
+        "conf_0.05": {
+          "total": 3,
+          "supporting": 3,
+          "monopole": 0,
+          "detections": [
+            {
+              "class": "supporting_tower",
+              "conf": 0.3382,
+              "bbox": [
+                158.1,
+                91.6,
+                350.5,
+                488.1
+              ]
+            },
+            {
+              "class": "supporting_tower",
+              "conf": 0.2119,
+              "bbox": [
+                212.3,
+                18.8,
+                338.6,
+                380.2
+              ]
+            },
+            {
+              "class": "supporting_tower",
+              "conf": 0.0816,
+              "bbox": [
+                197.8,
+                0.0,
+                313.0,
+                173.4
+              ]
+            }
+          ]
+        },
+        "conf_0.10": {
+          "total": 2,
+          "supporting": 2,
+          "monopole": 0,
+          "detections": [
+            {
+              "class": "supporting_tower",
+              "conf": 0.3382,
+              "bbox": [
+                158.1,
+                91.6,
+                350.5,
+                488.1
+              ]
+            },
+            {
+              "class": "supporting_tower",
+              "conf": 0.2119,
+              "bbox": [
+                212.3,
+                18.8,
+                338.6,
+                380.2
+              ]
+            }
+          ]
+        },
+        "conf_0.25": {
+          "total": 1,
+          "supporting": 1,
+          "monopole": 0,
+          "detections": [
+            {
+              "class": "supporting_tower",
+              "conf": 0.3382,
+              "bbox": [
+                158.1,
+                91.6,
+                350.5,
+                488.1
+              ]
+            }
+          ]
+        },
+        "conf_0.35": {
+          "total": 0,
+          "supporting": 0,
+          "monopole": 0,
+          "detections": []
+        },
+        "conf_0.50": {
+          "total": 0,
+          "supporting": 0,
+          "monopole": 0,
+          "detections": []
+        }
+      }
+    },
+    {
+      "filename": "img_43468fbb83504e56_jpg.rf.8d632e87498989e320849587db6220e2.jpg",
+      "path": "A:\\Electrohack\\data\\processed\\yolo\\test\\images\\img_43468fbb83504e56_jpg.rf.8d632e87498989e320849587db6220e2.jpg",
+      "baseline_predictions": {
+        "conf_0.05": {
+          "total": 1,
+          "supporting": 0,
+          "monopole": 1,
+          "detections": [
+            {
+              "class": "monopole_tower",
+              "conf": 0.2344,
+              "bbox": [
+                174.0,
+                17.4,
+                304.2,
+                408.2
+              ]
+            }
+          ]
+        },
+        "conf_0.10": {
+          "total": 1,
+          "supporting": 0,
+          "monopole": 1,
+          "detections": [
+            {
+              "class": "monopole_tower",
+              "conf": 0.2344,
+              "bbox": [
+                174.0,
+                17.4,
+                304.2,
+                408.2
+              ]
+            }
+          ]
+        },
+        "conf_0.25": {
+          "total": 0,
+          "supporting": 0,
+          "monopole": 0,
+          "detections": []
+        },
+        "conf_0.35": {
+          "total": 0,
+          "supporting": 0,
+          "monopole": 0,
+          "detections": []
+        },
+        "conf_0.50": {
+          "total": 0,
+          "supporting": 0,
+          "monopole": 0,
+          "detections": []
+        }
+      },
+      "augmented_predictions": {
+        "conf_0.05": {
+          "total": 2,
+          "supporting": 1,
+          "monopole": 1,
+          "detections": [
+            {
+              "class": "supporting_tower",
+              "conf": 0.1607,
+              "bbox": [
+                108.6,
+                74.3,
+                361.6,
+                504.4
+              ]
+            },
+            {
+              "class": "monopole_tower",
+              "conf": 0.0724,
+              "bbox": [
+                144.0,
+                153.3,
+                362.2,
+                499.7
+              ]
+            }
+          ]
+        },
+        "conf_0.10": {
+          "total": 1,
+          "supporting": 1,
+          "monopole": 0,
+          "detections": [
+            {
+              "class": "supporting_tower",
+              "conf": 0.1607,
+              "bbox": [
+                108.6,
+                74.3,
+                361.6,
+                504.4
+              ]
+            }
+          ]
+        },
+        "conf_0.25": {
+          "total": 0,
+          "supporting": 0,
+          "monopole": 0,
+          "detections": []
+        },
+        "conf_0.35": {
+          "total": 0,
+          "supporting": 0,
+          "monopole": 0,
+          "detections": []
+        },
+        "conf_0.50": {
+          "total": 0,
+          "supporting": 0,
+          "monopole": 0,
+          "detections": []
+        }
+      }
+    },
+    {
+      "filename": "img_60e8a9dfe8f3433f_JPG.rf.e203db2b31290c5f537812a67a5ecfd9.jpg",
+      "path": "A:\\Electrohack\\data\\processed\\yolo\\test\\images\\img_60e8a9dfe8f3433f_JPG.rf.e203db2b31290c5f537812a67a5ecfd9.jpg",
+      "baseline_predictions": {
+        "conf_0.05": {
+          "total": 1,
+          "supporting": 1,
+          "monopole": 0,
+          "detections": [
+            {
+              "class": "supporting_tower",
+              "conf": 0.4456,
+              "bbox": [
+                166.1,
+                0.0,
+                327.7,
+                471.5
+              ]
+            }
+          ]
+        },
+        "conf_0.10": {
+          "total": 1,
+          "supporting": 1,
+          "monopole": 0,
+          "detections": [
+            {
+              "class": "supporting_tower",
+              "conf": 0.4456,
+              "bbox": [
+                166.1,
+                0.0,
+                327.7,
+                471.5
+              ]
+            }
+          ]
+        },
+        "conf_0.25": {
+          "total": 1,
+          "supporting": 1,
+          "monopole": 0,
+          "detections": [
+            {
+              "class": "supporting_tower",
+              "conf": 0.4456,
+              "bbox": [
+                166.1,
+                0.0,
+                327.7,
+                471.5
+              ]
+            }
+          ]
+        },
+        "conf_0.35": {
+          "total": 1,
+          "supporting": 1,
+          "monopole": 0,
+          "detections": [
+            {
+              "class": "supporting_tower",
+              "conf": 0.4456,
+              "bbox": [
+                166.1,
+                0.0,
+                327.7,
+                471.5
+              ]
+            }
+          ]
+        },
+        "conf_0.50": {
+          "total": 0,
+          "supporting": 0,
+          "monopole": 0,
+          "detections": []
+        }
+      },
+      "augmented_predictions": {
+        "conf_0.05": {
+          "total": 1,
+          "supporting": 1,
+          "monopole": 0,
+          "detections": [
+            {
+              "class": "supporting_tower",
+              "conf": 0.4132,
+              "bbox": [
+                112.7,
+                57.5,
+                351.8,
+                487.0
+              ]
+            }
+          ]
+        },
+        "conf_0.10": {
+          "total": 1,
+          "supporting": 1,
+          "monopole": 0,
+          "detections": [
+            {
+              "class": "supporting_tower",
+              "conf": 0.4132,
+              "bbox": [
+                112.7,
+                57.5,
+                351.8,
+                487.0
+              ]
+            }
+          ]
+        },
+        "conf_0.25": {
+          "total": 1,
+          "supporting": 1,
+          "monopole": 0,
+          "detections": [
+            {
+              "class": "supporting_tower",
+              "conf": 0.4132,
+              "bbox": [
+                112.7,
+                57.5,
+                351.8,
+                487.0
+              ]
+            }
+          ]
+        },
+        "conf_0.35": {
+          "total": 1,
+          "supporting": 1,
+          "monopole": 0,
+          "detections": [
+            {
+              "class": "supporting_tower",
+              "conf": 0.4132,
+              "bbox": [
+                112.7,
+                57.5,
+                351.8,
+                487.0
+              ]
+            }
+          ]
+        },
+        "conf_0.50": {
+          "total": 0,
+          "supporting": 0,
+          "monopole": 0,
+          "detections": []
+        }
+      }
+    },
+    {
+      "filename": "img_6aae5e19d772407e_JPG.rf.d1684b185d60c6d8ad9afae5e44dc0f9.jpg",
+      "path": "A:\\Electrohack\\data\\processed\\yolo\\test\\images\\img_6aae5e19d772407e_JPG.rf.d1684b185d60c6d8ad9afae5e44dc0f9.jpg",
+      "baseline_predictions": {
+        "conf_0.05": {
+          "total": 1,
+          "supporting": 1,
+          "monopole": 0,
+          "detections": [
+            {
+              "class": "supporting_tower",
+              "conf": 0.1614,
+              "bbox": [
+                6.3,
+                274.4,
+                219.9,
+                511.0
+              ]
+            }
+          ]
+        },
+        "conf_0.10": {
+          "total": 1,
+          "supporting": 1,
+          "monopole": 0,
+          "detections": [
+            {
+              "class": "supporting_tower",
+              "conf": 0.1614,
+              "bbox": [
+                6.3,
+                274.4,
+                219.9,
+                511.0
+              ]
+            }
+          ]
+        },
+        "conf_0.25": {
+          "total": 0,
+          "supporting": 0,
+          "monopole": 0,
+          "detections": []
+        },
+        "conf_0.35": {
+          "total": 0,
+          "supporting": 0,
+          "monopole": 0,
+          "detections": []
+        },
+        "conf_0.50": {
+          "total": 0,
+          "supporting": 0,
+          "monopole": 0,
+          "detections": []
+        }
+      },
+      "augmented_predictions": {
+        "conf_0.05": {
+          "total": 2,
+          "supporting": 2,
+          "monopole": 0,
+          "detections": [
+            {
+              "class": "supporting_tower",
+              "conf": 0.3357,
+              "bbox": [
+                73.0,
+                79.7,
+                327.7,
+                503.8
+              ]
+            },
+            {
+              "class": "supporting_tower",
+              "conf": 0.1387,
+              "bbox": [
+                0.0,
+                100.7,
+                129.6,
+                507.2
+              ]
+            }
+          ]
+        },
+        "conf_0.10": {
+          "total": 2,
+          "supporting": 2,
+          "monopole": 0,
+          "detections": [
+            {
+              "class": "supporting_tower",
+              "conf": 0.3357,
+              "bbox": [
+                73.0,
+                79.7,
+                327.7,
+                503.8
+              ]
+            },
+            {
+              "class": "supporting_tower",
+              "conf": 0.1387,
+              "bbox": [
+                0.0,
+                100.7,
+                129.6,
+                507.2
+              ]
+            }
+          ]
+        },
+        "conf_0.25": {
+          "total": 1,
+          "supporting": 1,
+          "monopole": 0,
+          "detections": [
+            {
+              "class": "supporting_tower",
+              "conf": 0.3357,
+              "bbox": [
+                73.0,
+                79.7,
+                327.7,
+                503.8
+              ]
+            }
+          ]
+        },
+        "conf_0.35": {
+          "total": 0,
+          "supporting": 0,
+          "monopole": 0,
+          "detections": []
+        },
+        "conf_0.50": {
+          "total": 0,
+          "supporting": 0,
+          "monopole": 0,
+          "detections": []
+        }
+      }
+    },
+    {
+      "filename": "img_8600041f0438414a_JPG.rf.416a59ccb42e658908c7688b4be63df7.jpg",
+      "path": "A:\\Electrohack\\data\\processed\\yolo\\test\\images\\img_8600041f0438414a_JPG.rf.416a59ccb42e658908c7688b4be63df7.jpg",
+      "baseline_predictions": {
+        "conf_0.05": {
+          "total": 1,
+          "supporting": 1,
+          "monopole": 0,
+          "detections": [
+            {
+              "class": "supporting_tower",
+              "conf": 0.4454,
+              "bbox": [
+                155.0,
+                8.9,
+                312.5,
+                472.6
+              ]
+            }
+          ]
+        },
+        "conf_0.10": {
+          "total": 1,
+          "supporting": 1,
+          "monopole": 0,
+          "detections": [
+            {
+              "class": "supporting_tower",
+              "conf": 0.4454,
+              "bbox": [
+                155.0,
+                8.9,
+                312.5,
+                472.6
+              ]
+            }
+          ]
+        },
+        "conf_0.25": {
+          "total": 1,
+          "supporting": 1,
+          "monopole": 0,
+          "detections": [
+            {
+              "class": "supporting_tower",
+              "conf": 0.4454,
+              "bbox": [
+                155.0,
+                8.9,
+                312.5,
+                472.6
+              ]
+            }
+          ]
+        },
+        "conf_0.35": {
+          "total": 1,
+          "supporting": 1,
+          "monopole": 0,
+          "detections": [
+            {
+              "class": "supporting_tower",
+              "conf": 0.4454,
+              "bbox": [
+                155.0,
+                8.9,
+                312.5,
+                472.6
+              ]
+            }
+          ]
+        },
+        "conf_0.50": {
+          "total": 0,
+          "supporting": 0,
+          "monopole": 0,
+          "detections": []
+        }
+      },
+      "augmented_predictions": {
+        "conf_0.05": {
+          "total": 3,
+          "supporting": 3,
+          "monopole": 0,
+          "detections": [
+            {
+              "class": "supporting_tower",
+              "conf": 0.3003,
+              "bbox": [
+                123.3,
+                53.6,
+                377.5,
+                485.2
+              ]
+            },
+            {
+              "class": "supporting_tower",
+              "conf": 0.1075,
+              "bbox": [
+                153.1,
+                230.0,
+                306.9,
+                500.6
+              ]
+            },
+            {
+              "class": "supporting_tower",
+              "conf": 0.0506,
+              "bbox": [
+                146.7,
+                37.7,
+                283.6,
+                395.3
+              ]
+            }
+          ]
+        },
+        "conf_0.10": {
+          "total": 2,
+          "supporting": 2,
+          "monopole": 0,
+          "detections": [
+            {
+              "class": "supporting_tower",
+              "conf": 0.3003,
+              "bbox": [
+                123.3,
+                53.6,
+                377.5,
+                485.2
+              ]
+            },
+            {
+              "class": "supporting_tower",
+              "conf": 0.1075,
+              "bbox": [
+                153.1,
+                230.0,
+                306.9,
+                500.6
+              ]
+            }
+          ]
+        },
+        "conf_0.25": {
+          "total": 1,
+          "supporting": 1,
+          "monopole": 0,
+          "detections": [
+            {
+              "class": "supporting_tower",
+              "conf": 0.3003,
+              "bbox": [
+                123.3,
+                53.6,
+                377.5,
+                485.2
+              ]
+            }
+          ]
+        },
+        "conf_0.35": {
+          "total": 0,
+          "supporting": 0,
+          "monopole": 0,
+          "detections": []
+        },
+        "conf_0.50": {
+          "total": 0,
+          "supporting": 0,
+          "monopole": 0,
+          "detections": []
+        }
+      }
+    },
+    {
+      "filename": "img_893d983ab62c4744_JPG.rf.b1b11a8a81bc30ed43787d0568259cf6.jpg",
+      "path": "A:\\Electrohack\\data\\processed\\yolo\\test\\images\\img_893d983ab62c4744_JPG.rf.b1b11a8a81bc30ed43787d0568259cf6.jpg",
+      "baseline_predictions": {
+        "conf_0.05": {
+          "total": 2,
+          "supporting": 2,
+          "monopole": 0,
+          "detections": [
+            {
+              "class": "supporting_tower",
+              "conf": 0.4834,
+              "bbox": [
+                168.0,
+                0.0,
+                355.3,
+                480.3
+              ]
+            },
+            {
+              "class": "supporting_tower",
+              "conf": 0.1588,
+              "bbox": [
+                199.6,
+                173.2,
+                333.3,
+                512.0
+              ]
+            }
+          ]
+        },
+        "conf_0.10": {
+          "total": 2,
+          "supporting": 2,
+          "monopole": 0,
+          "detections": [
+            {
+              "class": "supporting_tower",
+              "conf": 0.4834,
+              "bbox": [
+                168.0,
+                0.0,
+                355.3,
+                480.3
+              ]
+            },
+            {
+              "class": "supporting_tower",
+              "conf": 0.1588,
+              "bbox": [
+                199.6,
+                173.2,
+                333.3,
+                512.0
+              ]
+            }
+          ]
+        },
+        "conf_0.25": {
+          "total": 1,
+          "supporting": 1,
+          "monopole": 0,
+          "detections": [
+            {
+              "class": "supporting_tower",
+              "conf": 0.4834,
+              "bbox": [
+                168.0,
+                0.0,
+                355.3,
+                480.3
+              ]
+            }
+          ]
+        },
+        "conf_0.35": {
+          "total": 1,
+          "supporting": 1,
+          "monopole": 0,
+          "detections": [
+            {
+              "class": "supporting_tower",
+              "conf": 0.4834,
+              "bbox": [
+                168.0,
+                0.0,
+                355.3,
+                480.3
+              ]
+            }
+          ]
+        },
+        "conf_0.50": {
+          "total": 0,
+          "supporting": 0,
+          "monopole": 0,
+          "detections": []
+        }
+      },
+      "augmented_predictions": {
+        "conf_0.05": {
+          "total": 8,
+          "supporting": 7,
+          "monopole": 1,
+          "detections": [
+            {
+              "class": "supporting_tower",
+              "conf": 0.2988,
+              "bbox": [
+                134.9,
+                71.2,
+                394.8,
+                496.5
+              ]
+            },
+            {
+              "class": "supporting_tower",
+              "conf": 0.1088,
+              "bbox": [
+                460.0,
+                80.8,
+                510.8,
+                441.8
+              ]
+            },
+            {
+              "class": "monopole_tower",
+              "conf": 0.0901,
+              "bbox": [
+                434.5,
+                140.6,
+                508.8,
+                506.8
+              ]
+            },
+            {
+              "class": "supporting_tower",
+              "conf": 0.0748,
+              "bbox": [
+                398.9,
+                147.0,
+                511.0,
+                496.3
+              ]
+            },
+            {
+              "class": "supporting_tower",
+              "conf": 0.0719,
+              "bbox": [
+                172.0,
+                223.6,
+                328.3,
+                498.3
+              ]
+            },
+            {
+              "class": "supporting_tower",
+              "conf": 0.066,
+              "bbox": [
+                174.0,
+                0.0,
+                301.4,
+                114.4
+              ]
+            },
+            {
+              "class": "supporting_tower",
+              "conf": 0.0637,
+              "bbox": [
+                407.0,
+                331.3,
+                506.7,
+                512.0
+              ]
+            },
+            {
+              "class": "supporting_tower",
+              "conf": 0.0557,
+              "bbox": [
+                436.3,
+                13.2,
+                512.0,
+                320.4
+              ]
+            }
+          ]
+        },
+        "conf_0.10": {
+          "total": 2,
+          "supporting": 2,
+          "monopole": 0,
+          "detections": [
+            {
+              "class": "supporting_tower",
+              "conf": 0.2988,
+              "bbox": [
+                134.9,
+                71.2,
+                394.8,
+                496.5
+              ]
+            },
+            {
+              "class": "supporting_tower",
+              "conf": 0.1088,
+              "bbox": [
+                460.0,
+                80.8,
+                510.8,
+                441.8
+              ]
+            }
+          ]
+        },
+        "conf_0.25": {
+          "total": 1,
+          "supporting": 1,
+          "monopole": 0,
+          "detections": [
+            {
+              "class": "supporting_tower",
+              "conf": 0.2988,
+              "bbox": [
+                134.9,
+                71.2,
+                394.8,
+                496.5
+              ]
+            }
+          ]
+        },
+        "conf_0.35": {
+          "total": 0,
+          "supporting": 0,
+          "monopole": 0,
+          "detections": []
+        },
+        "conf_0.50": {
+          "total": 0,
+          "supporting": 0,
+          "monopole": 0,
+          "detections": []
+        }
+      }
+    },
+    {
+      "filename": "img_939d859839544d54_JPG.rf.2f3b53ff7c5e8c95ae56436e3bebbe78.jpg",
+      "path": "A:\\Electrohack\\data\\processed\\yolo\\test\\images\\img_939d859839544d54_JPG.rf.2f3b53ff7c5e8c95ae56436e3bebbe78.jpg",
+      "baseline_predictions": {
+        "conf_0.05": {
+          "total": 1,
+          "supporting": 1,
+          "monopole": 0,
+          "detections": [
+            {
+              "class": "supporting_tower",
+              "conf": 0.4207,
+              "bbox": [
+                220.1,
+                0.0,
+                367.0,
+                468.4
+              ]
+            }
+          ]
+        },
+        "conf_0.10": {
+          "total": 1,
+          "supporting": 1,
+          "monopole": 0,
+          "detections": [
+            {
+              "class": "supporting_tower",
+              "conf": 0.4207,
+              "bbox": [
+                220.1,
+                0.0,
+                367.0,
+                468.4
+              ]
+            }
+          ]
+        },
+        "conf_0.25": {
+          "total": 1,
+          "supporting": 1,
+          "monopole": 0,
+          "detections": [
+            {
+              "class": "supporting_tower",
+              "conf": 0.4207,
+              "bbox": [
+                220.1,
+                0.0,
+                367.0,
+                468.4
+              ]
+            }
+          ]
+        },
+        "conf_0.35": {
+          "total": 1,
+          "supporting": 1,
+          "monopole": 0,
+          "detections": [
+            {
+              "class": "supporting_tower",
+              "conf": 0.4207,
+              "bbox": [
+                220.1,
+                0.0,
+                367.0,
+                468.4
+              ]
+            }
+          ]
+        },
+        "conf_0.50": {
+          "total": 0,
+          "supporting": 0,
+          "monopole": 0,
+          "detections": []
+        }
+      },
+      "augmented_predictions": {
+        "conf_0.05": {
+          "total": 7,
+          "supporting": 5,
+          "monopole": 2,
+          "detections": [
+            {
+              "class": "supporting_tower",
+              "conf": 0.4385,
+              "bbox": [
+                168.5,
+                79.0,
+                400.1,
+                490.6
+              ]
+            },
+            {
+              "class": "supporting_tower",
+              "conf": 0.1033,
+              "bbox": [
+                211.9,
+                0.1,
+                338.9,
+                176.0
+              ]
+            },
+            {
+              "class": "monopole_tower",
+              "conf": 0.0996,
+              "bbox": [
+                346.1,
+                152.9,
+                512.0,
+                484.9
+              ]
+            },
+            {
+              "class": "monopole_tower",
+              "conf": 0.0921,
+              "bbox": [
+                19.4,
+                105.9,
+                180.9,
+                450.4
+              ]
+            },
+            {
+              "class": "supporting_tower",
+              "conf": 0.0745,
+              "bbox": [
+                0.3,
+                337.5,
+                94.8,
+                512.0
+              ]
+            },
+            {
+              "class": "supporting_tower",
+              "conf": 0.0737,
+              "bbox": [
+                359.5,
+                139.4,
+                510.8,
+                499.4
+              ]
+            },
+            {
+              "class": "supporting_tower",
+              "conf": 0.0605,
+              "bbox": [
+                201.5,
+                228.1,
+                354.7,
+                495.8
+              ]
+            }
+          ]
+        },
+        "conf_0.10": {
+          "total": 2,
+          "supporting": 2,
+          "monopole": 0,
+          "detections": [
+            {
+              "class": "supporting_tower",
+              "conf": 0.4385,
+              "bbox": [
+                168.5,
+                79.0,
+                400.1,
+                490.6
+              ]
+            },
+            {
+              "class": "supporting_tower",
+              "conf": 0.1033,
+              "bbox": [
+                211.9,
+                0.1,
+                338.9,
+                176.0
+              ]
+            }
+          ]
+        },
+        "conf_0.25": {
+          "total": 1,
+          "supporting": 1,
+          "monopole": 0,
+          "detections": [
+            {
+              "class": "supporting_tower",
+              "conf": 0.4385,
+              "bbox": [
+                168.5,
+                79.0,
+                400.1,
+                490.6
+              ]
+            }
+          ]
+        },
+        "conf_0.35": {
+          "total": 1,
+          "supporting": 1,
+          "monopole": 0,
+          "detections": [
+            {
+              "class": "supporting_tower",
+              "conf": 0.4385,
+              "bbox": [
+                168.5,
+                79.0,
+                400.1,
+                490.6
+              ]
+            }
+          ]
+        },
+        "conf_0.50": {
+          "total": 0,
+          "supporting": 0,
+          "monopole": 0,
+          "detections": []
+        }
+      }
+    }
+  ]
+}

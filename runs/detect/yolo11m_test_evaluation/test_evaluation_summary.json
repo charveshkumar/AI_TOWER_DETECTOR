@@ -1,0 +1,31 @@
+{
+  "evaluation_split": "test",
+  "checkpoint": "A:\\Electrohack\\runs\\detect\\yolo11m_baseline\\weights\\best.pt",
+  "dataset_yaml": "A:\\Electrohack\\data\\processed\\yolo\\data.yaml",
+  "image_size": 640,
+  "device": "cpu",
+  "overall": {
+    "precision": 0.6987046650045107,
+    "recall": 0.5601109329189213,
+    "mAP50": 0.584513542253882,
+    "mAP50_95": 0.2507965614505657
+  },
+  "per_class": {
+    "supporting_tower": {
+      "precision": 0.7458328480218882,
+      "recall": 0.6428571428571429,
+      "mAP50": 0.40356396110645926,
+      "mAP50_95": 0.40356396110645926
+    },
+    "monopole_tower": {
+      "precision": 0.6515764819871331,
+      "recall": 0.47736472298069976,
+      "mAP50": 0.0980291617946723,
+      "mAP50_95": 0.0980291617946723
+    }
+  },
+  "classes": {
+    "0": "supporting_tower",
+    "1": "monopole_tower"
+  }
+}
