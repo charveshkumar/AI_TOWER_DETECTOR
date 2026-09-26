@@ -2,7 +2,7 @@
 
 **Project**: AI-Based Tower Component Detection System  
 **Source Directory**: `A:\Electrohack\data\processed\roboflow_export`  
-**Target Output Directory**: `C:\Users\Raghavendra\AppData\Local\Temp\tmpdvdcb5hy\yolo_test_out`  
+**Target Output Directory**: `C:\Users\Raghavendra\AppData\Local\Temp\tmp7edohhwu\yolo_test_out`  
 **Execution Mode**: `DRY RUN (Read-Only Validation)`  
 
 ---
