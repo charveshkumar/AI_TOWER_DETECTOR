@@ -1,0 +1,46 @@
+<svg viewBox="0 0 200 200" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="liteGreenWaveGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#6ee7b7" />
+      <stop offset="50%" stop-color="#34d399" />
+      <stop offset="100%" stop-color="#10b981" />
+    </linearGradient>
+
+    <linearGradient id="liteGreenTowerGrad" x1="50%" y1="0%" x2="50%" y2="100%">
+      <stop offset="0%" stop-color="#10b981" />
+      <stop offset="100%" stop-color="#047857" />
+    </linearGradient>
+
+    <linearGradient id="darkEmeraldSGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#064e3b" />
+      <stop offset="100%" stop-color="#065f46" />
+    </linearGradient>
+
+    <linearGradient id="liteGreenVGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#34d399" />
+      <stop offset="100%" stop-color="#059669" />
+    </linearGradient>
+  </defs>
+
+  <!-- 1. Radiating Broadcast Waves (Lite Green) -->
+  <path d="M 50 78 A 55 55 0 0 1 150 78" stroke="url(#liteGreenWaveGrad)" stroke-width="7" stroke-linecap="round" opacity="0.5" />
+  <path d="M 64 74 A 40 40 0 0 1 136 74" stroke="url(#liteGreenWaveGrad)" stroke-width="7.5" stroke-linecap="round" opacity="0.8" />
+  <path d="M 78 70 A 24 24 0 0 1 122 70" stroke="url(#liteGreenWaveGrad)" stroke-width="8" stroke-linecap="round" />
+
+  <!-- 2. Antenna Top Ball -->
+  <circle cx="100" cy="58" r="10" fill="url(#liteGreenWaveGrad)" />
+  
+  <!-- 3. Telecom Lattice Tower -->
+  <path d="M 100 68 L 72 135 L 128 135 Z" stroke="url(#liteGreenTowerGrad)" stroke-width="7" stroke-linejoin="round" stroke-linecap="round" />
+  <line x1="84" y1="108" x2="116" y2="108" stroke="url(#liteGreenTowerGrad)" stroke-width="6" stroke-linecap="round" />
+  <line x1="89" y1="92" x2="111" y2="92" stroke="url(#liteGreenTowerGrad)" stroke-width="5.5" stroke-linecap="round" />
+  <line x1="84" y1="108" x2="111" y2="92" stroke="url(#liteGreenTowerGrad)" stroke-width="4.5" />
+  <line x1="116" y1="108" x2="89" y2="92" stroke="url(#liteGreenTowerGrad)" stroke-width="4.5" />
+  <line x1="77" y1="126" x2="123" y2="126" stroke="url(#liteGreenTowerGrad)" stroke-width="5" />
+  <line x1="77" y1="126" x2="116" y2="108" stroke="url(#liteGreenTowerGrad)" stroke-width="4.5" />
+  <line x1="123" y1="126" x2="84" y2="108" stroke="url(#liteGreenTowerGrad)" stroke-width="4.5" />
+
+  <!-- 4. Monogram "SV" -->
+  <path d="M 85 142 L 56 142 C 48 142 45 148 45 156 L 45 160 C 45 168 50 173 58 174 L 84 178 C 90 179 92 182 92 186 L 92 188 C 92 193 88 196 80 196 L 44 196 L 48 184 L 80 184 C 83 184 84 182 84 180 L 84 179 C 84 176 81 174 75 173 L 52 169 C 43 167 36 161 36 153 L 36 150 C 36 141 43 134 54 134 L 89 134 Z" fill="url(#darkEmeraldSGrad)" />
+  <path d="M 87 142 L 112 196 L 140 196 L 165 134 L 140 134 L 124 176 L 105 134 L 87 134 Z" fill="url(#liteGreenVGrad)" />
+</svg>
